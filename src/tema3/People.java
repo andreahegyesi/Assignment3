@@ -33,7 +33,7 @@ public class People {
         Map<Person, List<Hobby>> personMap = new HashMap<>();
         Address address1 = new Address("France");
         Address address2 = new Address("Spain");
-        Address address3 = new Address("Austria");
+        Address address3 = new Address("Austriax");
         Hobby hobby1 = new Hobby("hiking", 10, new ArrayList<Address>(Arrays.asList(address1, address2)));
         Hobby hobby2 = new Hobby("swimming", 5, new ArrayList<Address>(Arrays.asList(address2, address3)));
         Hobby hobby3 = new Hobby("photography", 12, new ArrayList<Address>(Arrays.asList(address1, address2, address3)));
